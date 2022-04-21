@@ -1,0 +1,24 @@
+# Main configuration for JupyterBook
+
+title: The Generic Mapping Tools Tutorials
+author: The GMT Developers
+logo: logo.png
+exclude_patterns: [README.md, environment.yml]
+
+# Add a bibtex file so that we can create citations
+bibtex_bibfiles:
+  - references.bib
+
+execute:
+  execute_notebooks: force
+
+# Information about where the book exists on the web
+repository:
+  url: https://github.com/leouieda/tutorials  # Online location of your book
+  branch: main  # Which branch of the repository should be used when creating links (optional)
+
+# Add GitHub buttons to your book
+html:
+  use_issues_button: true
+  use_repository_button: true
+  use_edit_page_button: true

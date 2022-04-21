@@ -1,0 +1,12 @@
+name: gmt-tutorials
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python==3.10.*
+  - pip
+  - make
+  - gmt==6.3.*
+  - jupyter-book==0.12.*
+  - sphinx_gmt==0.1.*
+  - livereload==2.6.*

@@ -1,0 +1,20 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: index
+parts:
+  - caption: Novice
+    chapters:
+    - file: notebooks
+    - file: markdown-notebooks
+  - caption: Topic specific
+    chapters:
+    - file: markdown
+  - caption: About the tutorials
+    chapters:
+    - file: about
+    - url: https://www.generic-mapping-tools.org/
+      title: The Generic Mapping Tools
+    - url: https://forum.generic-mapping-tools.org
+      title: Forum
